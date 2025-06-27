@@ -46,4 +46,17 @@ python -m spacy downnload en_core_web_sm
 ### 4. Run the FastAPI server
 
 uvicorn app.main:app --reload
+
+### Test the API
+
+Once the server is running, open your browser and go to:
+
+[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+- Click on the `/upload` endpoint
+- Click **"Try it out"**
+- Upload a `.pdf` or `.docx` resume
+- Click **Execute**
+- You should see the extracted text in the response!
+
  
