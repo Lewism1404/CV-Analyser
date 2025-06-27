@@ -1,7 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
 from app.parser import parse_resume
 
-
 app = FastAPI()
 
 @app.post("/upload")
