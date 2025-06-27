@@ -1,6 +1,6 @@
 # CV Analyser – AI-Powered Resume Reviewer
 
-This project is an AI-driven resume analysis tool built with Python and FastAPI. It reads CVs (PDF or DOCX), extracts key information, and provides feedback to help job seekers improve their resumes based on relevance, structure, and keyword matching.
+This web application will be used to analyse a CV and give feedback, The reason for this is that most companies that hire have an AI look through the CVs and reject/accept them based on some criteria. Knowing if your CV is good could improve the likelihood of your applications having more success and reaching further stages.
 
 ---
 
